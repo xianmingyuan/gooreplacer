@@ -1,0 +1,22 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.12.1",
+  "createAt": "4/9/2022, 1:42:11 PM",
+  "redirect-rules": [
+    {
+      "src": "www.google.com/recaptcha",
+      "kind": "wildcard",
+      "dst": "recaptcha.net/recaptcha",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [
+    {
+      "src": "https://accounts.google.com/o/oauth2/iframe",
+      "kind": "wildcard",
+      "enable": true
+    }
+  ],
+  "request-headers": [],
+  "response-headers": []
+}
