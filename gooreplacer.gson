@@ -17,11 +17,6 @@
       "enable": true
     },
     {
-      "src": "https://fp.rinkebyfaucet.com/?ci=js/3.5.7",
-      "kind": "wildcard",
-      "enable": true
-    },
-    {
       "src": "https://platform.twitter.com",
       "kind": "wildcard",
       "enable": true
