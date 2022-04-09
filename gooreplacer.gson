@@ -1,7 +1,7 @@
 {
   "createBy": "http://liujiacai.net/gooreplacer/",
   "version": "3.12.1",
-  "createAt": "4/9/2022, 1:42:11 PM",
+  "createAt": "4/9/2022, 2:28:50 PM",
   "redirect-rules": [
     {
       "src": "www.google.com/recaptcha",
@@ -12,7 +12,92 @@
   ],
   "cancel-rules": [
     {
-      "src": "https://accounts.google.com/o/oauth2/iframe",
+      "src": "https://www.google-analytics.com",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://fp.rinkebyfaucet.com/?ci=js/3.5.7",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://platform.twitter.com",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://syndication.twitter.com",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://goerlifaucet.com/favicon.png",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://cdn.heapanalytics.com/js",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://cdn.sift.com/s.js",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/page-data/reset-password/page-data.json",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/page-data/signup/page-data.json",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://heapanalytics.com",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://hexagon-analytics.com",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/manifest.webmanifest",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/static",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/icons",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://auth.alchemyapi.io/favicon-32x32.png",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "https://fonts.googleapis.com/css",
       "kind": "wildcard",
       "enable": true
     }
